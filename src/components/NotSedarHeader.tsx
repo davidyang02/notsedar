@@ -26,9 +26,15 @@ export function NotSedarHeader() {
             About
           </Link>
         </nav>
-        <div className="ml-auto text-xs text-slate-400">
-          Canadian public filings · BamSEC-style
-        </div>
+        <a
+          href="https://openbsis-sedar.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-auto text-xs px-2 py-1 rounded border border-slate-600 text-slate-300 hover:border-slate-400 hover:text-white transition-colors whitespace-nowrap"
+          title="Sister product: same data, OpenBSIS-flavored UI"
+        >
+          OpenSEDAR ↗
+        </a>
       </div>
     </header>
   );
